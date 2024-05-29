@@ -1,0 +1,53 @@
+.hero{
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+
+    .hero-items{
+        padding: 100px 0px;
+        width: 100%;
+        display: flex;
+        gap: 50px;
+             
+        .hero-text{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 20px;
+            h1{
+                width: 100%;
+                font-size: 40px;
+                
+            }
+            p{
+                width: 100%;
+                font-size: 20px;
+            }
+            button{
+                font-size: 20px;
+                padding: 15px 40px;
+                border: none;
+                border-radius: 10px;
+                background-color: #00BAFC;
+                color: white;
+                font-weight: 500;
+                cursor: pointer;
+                background-color: #00BAFC;
+                transition: 0.6s;
+                &:hover{
+                scale: 1.1;
+                box-shadow: 5px 5px 3px #00BAFC;
+                }
+            }
+        
+        }
+        .box-video{   
+            flex: 1;
+            padding-left: 10%;
+            iframe{
+                border-radius: 10px;
+            }
+            
+        }
+    }
+}
